@@ -1,5 +1,6 @@
 NLG
 lib/*
+!lib/package.json
 
 # Node
 node_modules/*
@@ -9,12 +10,10 @@ npm-debug.log
 isolate-*-v8.log
 
 # OS Files
-.DS_Store
 *.sw*
 dump.rdb
 dump/*
 
 # IDEA/WebStorm Project Files
 .idea
-*.iml
 .vscode/*
