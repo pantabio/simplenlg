@@ -1,14 +1,16 @@
 {
-  "name": "simplenlg",
-  "version": "1.0.0",
-  "description": "",
+  "name": "pb-simplenlg",
+  "version": "0.0.221",
+  "description": "A port of the SimpleNLG to JavaScript. This is a forked version of the work from Rob Ellis aka silentrob ",
+  "repository": "https://github.com/pantabio/simplenlg",
+  "readme": "readme.md",
   "main": "lib/index.js",
   "scripts": {
     "build": "babel src --out-dir lib --copy-files",
     "lint": "eslint --env node src *.js",
     "test": "mocha --compilers js:babel-register test -R spec -s 1700 -t 30000 --recursive"
   },
-  "author": "Rob Ellis",
+  "author": "Rob Ellis, Oriol Barcelo, Konrad Koch ",
   "license": "MPL",
   "devDependencies": {
     "babel-cli": "^6.24.1",
