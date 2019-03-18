@@ -56,6 +56,10 @@ class PPPhraseSpec extends PhraseElement {
     }
     return null;
   }
+
+  getFactory() {
+    return this.factory;
+  }
   
 }
 
