@@ -28,7 +28,7 @@ import Lexicon from '../src/lexicon/lexicon';
 import Realiser from '../src/realiser/Realiser';
 import NLG from '../src/framework/nlg';
 
-const lexicon = new Lexicon('lexicon.xml');
+const lexicon = new Lexicon('path', 'lexicon.xml');
 const nlg = new NLG(lexicon);
 const realiser = new Realiser(lexicon);
 

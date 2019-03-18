@@ -44,7 +44,7 @@ import LexicalCategory from '../src/features/LexicalCategory';
 import mocha from 'mocha';
 import should from 'should/as-function';
 
-const lexicon = new Lexicon('small-lexicon.xml');
+const lexicon =new Lexicon('data/','small-lexicon.xml')
 const nlg = new NLG(lexicon);
 const realiser = new Realiser(lexicon);
 

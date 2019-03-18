@@ -23,7 +23,7 @@ import Lexicon from '../src/lexicon/lexicon';
 import mocha from 'mocha';
 import should from 'should/as-function';
 
-const lexicon = new Lexicon('small-lexicon.xml');
+const lexicon =new Lexicon('data/','small-lexicon.xml')
 
 describe('Ortho interface', () => { 
 

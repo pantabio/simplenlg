@@ -1,6 +1,6 @@
 {
   "name": "pb-simplenlg",
-  "version": "0.0.21",
+  "version": "0.0.22",
   "description": "A port of the SimpleNLG to JavaScript. This is a forked version of the work from Rob Ellis aka silentrob ",
   "repository": "https://github.com/pantabio/simplenlg",
   "readme": "readme.md",
