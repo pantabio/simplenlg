@@ -3,6 +3,7 @@
   "version": "0.0.21",
   "description": "A port of the SimpleNLG to JavaScript. This is a forked version of the work from Rob Ellis aka silentrob ",
   "repository": "https://github.com/pantabio/simplenlg",
+  "readme": "readme.md",
   "main": "index.js",
   "scripts": {
     "build": "babel src --out-dir lib --copy-files",

@@ -1,6 +1,7 @@
 NLG
 lib/*
 !lib/package.json
+!lib/readme.md
 
 # Node
 node_modules/*
