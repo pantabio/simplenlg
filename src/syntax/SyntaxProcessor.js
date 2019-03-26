@@ -32,7 +32,7 @@ import WordElement from '../framework/wordElement';
 
 import InflectedWordElement from '../framework/inflectedWordElement';
 
-import ClauseHelper from './clauseHelper'
+import ClauseHelper from './ClauseHelper'
 
 class SyntaxProcessor extends NLGModule {
   constructor(){

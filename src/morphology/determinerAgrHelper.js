@@ -18,7 +18,7 @@
  */
 
 
-import S from "String";
+import S from "string";
 
 const AN_EXCEPTIONS = ["one", "180", "110"];
 

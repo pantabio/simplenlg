@@ -23,7 +23,7 @@ import DiscourseFunction from '../features/DiscourseFunction';
 import Feature from '../features/Feature';
 import InternalFeature from '../features/InternalFeature';
 import LexicalCategory from '../features/LexicalCategory';
-import InflectedWordElement from '../framework/InflectedWordElement';
+import InflectedWordElement from '../framework/inflectedWordElement';
 
 class PhraseHelper {
 
