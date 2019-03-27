@@ -1,11 +1,8 @@
 # SimpleNLG in Javascript
+This is a fork of https://github.com/silentrob/simplenlg which is a functional port of [SimpleNLG](https://github.com/simplenlg/simplenlg), most the tests, methods classes and interfaces have been ported by [Rob Ellis]( https://github.com/silentrob)
 
-* CAUTION: This project is very much WIP* 
-
-This is functional port of [SimpleNLG](https://github.com/simplenlg/simplenlg), most the tests, methods classes and interfaces have been ported.
 
 Notably missing from this port.
-
 - Adjective ordering is still not complete. [TODO]
 - Aggergating interface is missing. [TODO]
 - Some more complex document types are not yet supported. [TODO]
@@ -14,6 +11,18 @@ Notably missing from this port.
 - The Server Interface -- This seemed out of context and with Node you could easily add something directly.
 
 ## Setup 
+
+### Use as Library: 
+
+yarn: 
+
+`yarn add pb-simplenlg` 
+
+npm
+
+`npm i pb-simplenlg`
+
+### Include in your project
 
 Download or clone the repo.
 
