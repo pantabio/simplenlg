@@ -19,18 +19,14 @@
 
 
 import NLGModule from '../framework/nlgmodule';
-import InflectedWordElement from '../framework/inflectedWordElement';
 import CoordinatedPhraseElement from '../framework/coordinatedPhraseElement';
 import StringElement from '../framework/stringElement';
-import WordElement from '../framework/wordElement';
 import ListElement from '../framework/listElement';
 import DocumentElement from '../framework/documentElement';
 
 
 import DocumentCategory from '../features/DocumentCategory';
-import LexicalFeature from '../features/LexicalFeature';
 import InternalFeature from '../features/InternalFeature';
-import LexicalCategory from '../features/LexicalCategory';
 import DiscourseFunction from '../features/DiscourseFunction';
 
 
